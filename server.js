@@ -14,8 +14,6 @@ const Moralis = require('moralis/node');
 
 app.prepare().then(async () => {
 	const server = express();
-	// const web3 = new Web3('https://mainnet.infura.io/v3/f0851ca048234e2a8b9fce6423433441')
-	// const web3 = new Web3('https://1ospyro22qey.usemoralis.com:2053/server')
 
 	server.use(cors());
 
